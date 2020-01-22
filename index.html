@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Disney Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- //Added main container for timer and questions -->
+
+    <div class="container main-container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h1 class="app-title">Disney Trivia!</h1>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 timer">
+                <h2 class="app-timer">Time Remaining: <span>60</span> Seconds</h2>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 start">
+                <button type="button" class="btn btn-primary btn-lg btn-start">Start</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <section class="questions well">
+                    <h2>Which was the first Disney movie to receive an Oscar nomination for Best Picture?</h2>
+                    <div class="btn-group btn-group-toggle q1" data-toggle="buttons">
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option1"> Beauty and the Beast
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option2"> Snow White
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option3"> Finding Nemo
+                        </label>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <section class="questions">
+                    <h2>What type of animal does Jasmine have for a pet in Aladdin?</h2>
+                    <div class="btn-group btn-group-toggle q2" data-toggle="buttons">
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option1"> Dragon
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option2"> Tiger
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option3"> Lion
+                        </label>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <section class="questions">
+                    <h2>What is the name of the monster in Monsters, Inc. that only had one eye?</h2>
+                    <div class="btn-group btn-group-toggle q3" data-toggle="buttons">
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option1" > James P. Sullivan
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option2"> Roz
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option3"> Mike Wazowski
+                        </label>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-12 col-md-12 col-lg-12">
+                <section class="questions">
+                    <h2>In the movie Finding Nemo, Dory and Marlin ride through a current to speed up their travel to
+                        Nemo's location. What current was it?</h2>
+                    <div class="btn-group btn-group-toggle q4" data-toggle="buttons">
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option1" value="The West Australian Current "> The West Australian Current
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option2" value="The East Australian Current"> The East Australian Current
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" name="options" id="option3" value="The South Australian Current"> The South Australian Current
+                        </label>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <!-- //added row for done button and container for results -->
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <button type="button" class="btn btn-primary btn-lg btn-done">Done</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container done-container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h1>All Done!</h1>
+                <p>Correct Answers: <span></span></p>
+                <p>Incorrect Answers: <span></span></p>
+                <p>Unanswered: <span></span></p>
+            </div>
+        </div>
+    </div>
+     <!-- Links to jquery and javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
